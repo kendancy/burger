@@ -11,9 +11,8 @@ if (process.env.JAWSDB_URL) {
     user: "root",
     password: "123awk",
     database: "burgers_db"
-
   });
-});
+};
 
 // Make connection.
 connection.connect(function(err) {
